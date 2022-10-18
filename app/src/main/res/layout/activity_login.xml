@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    tools:context=".login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="GymTech"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginVertical="180dp"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-black">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtEmailLogin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginRight="30dp"
+            android:alpha="0.5"
+            android:background="@drawable/bordes_redondos"
+            android:fontFamily="sans-serif"
+            android:hint="Email"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"></EditText>
+
+        <EditText
+            android:id="@+id/txtContraseñaLogin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:alpha="0.5"
+            android:background="@drawable/bordes_redondos"
+            android:fontFamily="sans-serif"
+            android:hint="Password"
+            android:password="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"></EditText>
+
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:buttonTint="#DC0C15"
+            android:text="Keep me logged in."
+            android:textColor="#ffffff"></CheckBox>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bordes_redondos2"
+            android:fontFamily="sans-serif-black"
+            android:text="LOGIN"
+            android:textColor="#ffffff"></Button>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginVertical="460dp"
+        android:layout_marginLeft="100dp"
+        android:text="Forgot password?"
+        android:textColor="#ffffff"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginVertical="460dp"
+        android:layout_marginLeft="220dp"
+        android:text="Recover here"
+        android:textColor="#DC0C15"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginVertical="630dp"
+        android:layout_marginLeft="90dp"
+        android:text="Don't have an account?"
+        android:textColor="#ffffff"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Signup here"
+        android:textColor="#DC0C15"
+        android:layout_marginLeft="240dp"
+        android:layout_marginVertical="630dp"
+        android:id="@+id/tvSincuenta"></TextView>
+
+
+</RelativeLayout>
